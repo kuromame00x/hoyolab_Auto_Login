@@ -17,16 +17,17 @@ Google Chromeをバックグラウンドで起動し、事前にログイン済�
 
 ## 📁 ディレクトリ構成
 
-hoyolab_Auto_Login/
-├── hoyolab_tool/
-│   ├── config.txt                # Chromeプロファイルなどの設定
-│   ├── urls.txt                  # 自動ログイン対象のHoYoLAB URLを記載（1行ずつ）
-│   ├── create_chrome_profile.bat# 初回のみ使用。ChromeSeleniumプロファイル作成用
-│   └── hoyolab.exe              # 実行ファイル（PyInstallerで生成済）
-├── src/
-│   └── hoyolab.py               # .exe生成元のPythonスクリプト（透明性確保のため公開）
-├── README.md                    # このファイル
-└── .gitignore                   # Git追跡除外ファイル
+hoyolab_Auto_Login/  
+├── hoyolab_tool/  
+│   ├── config.txt              # Chromeプロファイルなどの設定  
+│   ├── urls.txt                # 自動ログイン対象のHoYoLAB URLを記載（1行ずつ）  
+│   └── create_chrome_profile.bat  # 初回のみ使用。ChromeSeleniumプロファイル作成用  
+├── hoyolab.exe                 # 実行ファイル（PyInstallerで生成済）  
+├── src/  
+│   └── hoyolab.py              # .exe生成元のPythonスクリプト  
+├── README.md                   # このファイル  
+└── .gitignore                  # Git追跡除外ファイル
+
 
 
 ---

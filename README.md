@@ -1,0 +1,2 @@
+# hoyolab_Auto_Login
+HoYoLABのログインボーナス自動取得

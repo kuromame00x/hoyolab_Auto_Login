@@ -17,6 +17,7 @@ Google Chromeをバックグラウンドで起動し、事前にログイン済�
 
 ## 📁 ディレクトリ構成
 
+```
 hoyolab_Auto_Login/
 ├── hoyolab_tool/
 │   ├── config.txt                `# Chromeプロファイルなどの設定`
@@ -27,8 +28,7 @@ hoyolab_Auto_Login/
 │   └── hoyolab.py                `# .exe生成元のPythonスクリプト`
 ├── README.md                     `# このファイル`
 └── .gitignore                    `# Git追跡除外ファイル`
-
----
+```
 
 ## 🛠 導入手順
 

@@ -3,7 +3,8 @@
 HoYoLAB（原神・崩壊シリーズなど）のログインボーナスを**自動取得**するWindows用ツールです。  
 Google Chromeをバックグラウンドで起動し、事前にログイン済みの専用プロファイルを使って、最新の日付のログインボーナスをクリックします。
 
-github actionsでログインボーナスを獲得(開発中)
+(開発中)
+github actionsでログインボーナスを獲得
 https://github.com/kuromame00x/hoyolab_Auto_Login_withGitActions
 ---
 

@@ -32,13 +32,17 @@ hoyolab_Auto_Login/
 
 ---
 
-## 🛠️ 導入手順
+手順2のコードブロックに不要な文章が混入していたため、以下のように **手順1～3を正しいMarkdown形式**で再構成しました。これでGitHub上でも読みやすく、構造も崩れません。
+
+---
+
+## 🛠 導入手順
 
 ### 1. Chrome専用プロファイルの作成（初回のみ）
 
-- `create_chrome_profile.bat` を実行し、Chromeを起動
-- HoYoLABにログインして閉じる  
-  ※この操作でプロファイルフォルダ `C:/Users/ユーザー名/AppData/Local/ChromeSelenium` が作成され、ログイン情報が保存されます。
+- `create_chrome_profile.bat` を実行し、Chromeを起動  
+- HoYoLAB にログインして閉じる  
+  ※この操作でプロファイルフォルダ `C:/Users/ユーザー名/AppData/Local/ChromeSelenium` が作成され、ログイン情報が保存されます
 
 ---
 
@@ -48,25 +52,27 @@ hoyolab_Auto_Login/
 user-data-dir=C:/Users/%USERNAME%/AppData/Local/ChromeSelenium
 profile-directory=Default
 headless=true
+```
 
-以下は画像の内容をもとに、**`README.md` にそのまま使えるMarkdown形式**で整形し直したものです。手順3以降が崩れないよう、番号・インデント・コードブロックも修正済みです。
+- `%USERNAME%` は自動展開されるためそのままでOK  
+- `headless=true` にするとChrome非表示で起動（マウス操作などに干渉せずバックグラウンドで実行）
 
 ---
 
-## 3. `urls.txt` に対象ページを記入
+### 3. `urls.txt` に対象ページを記入
 
-自動ログイン対象の HoYoLAB チェックインページURLを 1 行ずつ記述してください。以下は記入例です。
+自動ログイン対象の HoYoLAB チェックインページURLを **1行ずつ** 記述してください。以下は記入例です。
 
-```
+```txt
 https://act.hoyolab.com/bbs/event/signin/hkrpg/...
 https://act.hoyolab.com/bbs/event/signin-bh3/...
 https://act.hoyolab.com/bbs/event/signin/zzz/...
 https://act.hoyolab.com/ys/event/signin-sea-v3/...
 ```
 
-- 不要なタイトルのURLは削除してOKです  
-- スクリプトは各ページを順番にタブで開いて処理します
+- 不要なタイトルのURLは削除してOK  
+- スクリプトは各ページを**順番にタブで開いて処理**します
 
 ---
 
-これで手順全体の構成が視認性よく維持されます。`README.md` に直接貼り付けて問題ありません。
+この形式で `README.md` に貼り付ければ問題ありません。必要に応じて `### 4. 実行方法` などを追加しても構いません。
